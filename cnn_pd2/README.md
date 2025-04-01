@@ -8,8 +8,7 @@
 
 选择该项目的初衷是通过临摹现成基于CNN模型的代码，初步认识和熟悉CNN这个经典大模型的一些基础知识操作，希望能以此入门。
 
-![示例图片](dataset/val/COVID/images/COVID-17.png "1-1")
-![示例图片](dataset/val/COVID/masks/COVID-17.png "1-2")
+<img src="COVID-1.png" alt="描述" width="40%">       <img src="COVID-17.png" alt="描述" width="40%">
 
 项目共提供了COVID-19、Lung_Opacity（肺部不透光证）、Viral_Pneumonia(病毒性肺炎)以及Normal(正常肺部)四种情况下的X光片作为训练数据，
 通过卷积和池化将多维数据降维，并设计了训练函数、评估函数和保存模型函数，用于模型训练。
