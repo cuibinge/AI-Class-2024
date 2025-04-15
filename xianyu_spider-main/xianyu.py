@@ -266,6 +266,6 @@ def main(keyword, max_page):
 
 
 if __name__ == '__main__':
-    keyword = '电吉他'
+    keyword = 'iphone13pro'
     max_page = 100  # 向上滑动次数
     main(keyword=keyword, max_page=max_page)
