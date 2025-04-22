@@ -16,7 +16,7 @@ log_path = os.path.join('outputs', 'api_debug.log')
 
 # API配置（需替换实际参数）
 API_URL = "https://api.deepseek.com/v1/chat/completions"
-API_KEY = "sk-09d1ed0bb97d4d69b6ca2f6aa51b3efe"  # API密钥
+API_KEY = ""  # API密钥
 HEADERS = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {API_KEY}"
